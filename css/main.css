@@ -102,13 +102,13 @@ body :first-child {
 
 .imgage {
     margin-top: 7px;
-    height: 27px;
+    height: 31px;
     width: 33px;
-    /* background-color: brown; */
+    background-color: brown;
 }
 
 #app-container2 :first-child{
-    height: 27px;
+    height: 31px;
     width: 33px;
 }
 
@@ -120,20 +120,22 @@ body :first-child {
     color: white;
     margin-top: 12px;
     margin-left: 2.5px;
-    background-color: rgb(8, 63, 45);
+    /* background-color: rgb(26, 107, 80); */
    
 }
 
 #app-container2 :nth-child(2) {
+    margin-left: 4px;
     height: 17px;
     width: 26px;
     margin-right: 28px;
 }
 
 #app-container2 :nth-child(4) {
+    margin-left: 3px;
     height: 17px;
     width: 30px;
-    margin-right: 40px;
+    margin-right: 38px;
 }
 
 #app-container2 button {
@@ -163,7 +165,7 @@ body:last-child {
 }
 
 #search {
-    width: 105%;
+    width: 100.8%;
     height: 186px;
     background-color: rgb(49,152,120);
     display: flex;
@@ -207,6 +209,7 @@ body:last-child {
     /* background-color: rgb(28, 177, 214); */
     border: none;
     background-color:rgb(40,132,111);
+
 }
 
 #search-bar{
@@ -216,7 +219,7 @@ body:last-child {
     align-items: center;
     height: 58px;
     width: 796px;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     border-radius: 29px;
 }
 
@@ -227,6 +230,7 @@ body:last-child {
     border: none;
     margin: 0px 30px 0px 22px;
     /* background-color: aqua; */
+   
 }
 
 
@@ -234,15 +238,24 @@ body:last-child {
     width: 50px;
     height: 50px;
     padding: 10px;
-    font-size: 1rem;
-    font-size: 50%;
-    font-weight: 700;
+    font-size: 1.5rem;
+    /* font-size: 50%; */
     border-radius: 50%;
     margin-right: 4px;
-    color: #673500;
-    
     background-color: rgb(255,202,61);
+
 }
+
+.bi{
+    margin-top: -17px;
+    margin-left: 4px;
+    background-color: (255,202,61);
+    height: 30px;
+    width: 30px;
+    font-weight:800;
+    color: #673500;
+}
+
 
 #body {
     /* background-color: rgb(119, 89, 187); */
@@ -323,7 +336,7 @@ body:last-child {
     height: 27px;
     width: 180px;
     font-size: 15.8px;
-    background-color: rgb(235, 172, 95);
+    /* background-color: rgb(235, 172, 95); */
 }
 
 #catagory-1 :last-child{
@@ -332,6 +345,7 @@ body:last-child {
     margin-left: 0px;
     margin-top: -11px;
     font-size: 12px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -371,6 +385,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -410,6 +425,7 @@ body:last-child {
     margin-left: 0px;
     margin-top: -11px;
     font-size: 12px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -450,6 +466,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -489,6 +506,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -528,6 +546,7 @@ body:last-child {
     margin-left: 0px;
     margin-top: -11px;
     font-size: 12px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -566,6 +585,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -604,6 +624,7 @@ body:last-child {
     margin-left: 0px;
     margin-top: -11px;
     font-size: 12px;
+    color: gray;
     /* background-color: rgb(207, 59, 59); */
 }
 
@@ -642,6 +663,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -4px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -682,6 +704,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(24, 87, 81); */
 }
 
@@ -721,6 +744,7 @@ body:last-child {
     margin-left: 0px;
     margin-top: -11px;
     font-size: 12px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -759,6 +783,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -797,6 +822,7 @@ body:last-child {
     margin-left: 0px;
     margin-top: -11px;
     font-size: 12px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -835,6 +861,7 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
 
@@ -873,24 +900,35 @@ body:last-child {
     font-size: 12px;
     margin-left: 0px;
     margin-top: -11px;
+    color: gray;
     /* background-color: rgb(30, 202, 188); */
 }
+
+
 
 
 .add {
     margin-top: 42px;
     /* background-color: rgb(120, 143, 192); */
-    height: 214px;
+    margin-bottom: 13px;
+
+    height: 198px;
     width: 493px;
-    border: 1px solid black;
-    /* box-shadow: 0px 0px 1px  rgb(214, 214, 214); */
+    /* border: 1px solid rgba(255, 255, 255, 0.096); */
+
+    /* box-shadow: 0px 0px 5px  rgb(180, 40, 40); */
     /* border-top: 1px solid lightgray; */
     /* border-bottom: 1px solid lightgray; */
     /* border-right: 1px solid lightgray; */
+
+   
+    /* box-shadow: 0 5px 3px #00000030; */
 }
 
 
+
 #content {
+    border-right: 1px solid rgb(218, 218, 218);
     margin-left: 148px;
     display: flex;
     flex-flow: column wrap;
@@ -898,6 +936,8 @@ body:last-child {
     align-self: flex-start;
     justify-content: start;
     /* border-right: 1px solid lightgray; */
+    /* box-shadow: -5px 0 8px #00000030; */
+    box-shadow:  -3px 5px 5px rgb(245,245,245), -7px 0px 5px -2px rgb(245,245,245), -3px -5px 5px rgb(245,245,245);
     
     /* background-color: blue; */
 }
@@ -978,6 +1018,7 @@ body:last-child {
 
 
 #content-2 {
+    box-shadow:  3px 5px 5px rgb(245,245,245), 7px 0px 5px -2px rgb(245,245,245), 3px -5px 5px rgb(245,245,245);
     margin-left: 0px;
     display: flex;
     flex-flow: row wrap;
@@ -988,10 +1029,10 @@ body:last-child {
 }
 
 #content-2 > img{
-    height: 30px;
+    height: 28px;
     width: 428px;
     /* background-color: rgb(163, 26, 26); */
-    margin: 32px 0px 5px 32px;
+    margin: 32px 0px -6px 32px;
     
 }
 
@@ -1012,7 +1053,7 @@ body:last-child {
     height: 40px;
     width: 200px;
     margin-left: 32px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     padding: 0px 0px;
     font-size: 13px;
     font-weight: 800;
@@ -1052,28 +1093,34 @@ body:last-child {
 #content-3 {
     width: 100%;
     height: 240px;
-    background-color: lime;
+    /* background-color: rgb(51, 206, 51); */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-bottom: 8px;
 }
 
 #col  {
-    margin-top: 32px;
+    margin-top: 30px;
+    margin-bottom: 12px;
     padding-top: 7px;
     width: 100%;
     height: 24px;
     /* background-color: rgb(145, 23, 23); */
+
 }
 
-#col>h3 {
+#col> h3 {
     /* background-color: rgb(122, 155, 5); */
     margin-left: 148px;
+  
     width: 100px;
     height: 24px;
     font-weight: 600;
     font-size: 14px;
+    color: rgb(33,37,41);
+    
 }
 
 /* #content-3 :nth-child(2) {
@@ -1084,19 +1131,20 @@ body:last-child {
     background-color: #b5e1e7;
 } */
 
-#content-3 .boxs {
+#content-3 .boxs{
     width: 235px;
-    height: 147px;
-    margin-top: -23px;
+    height: 152px;
+    margin-top: -22px;
     background-color: F3F6F5;
+    /* background-color: rgb(1, 100, 67); */
     padding-left: 1px;
 }
 
 #description {
+    margin-top: 3px;
     width: 100%;
-    height: 186px;
-   
-    background-color: rgb(25, 23, 148);
+    height: 187px;
+    /* background-color: rgb(141, 140, 233); */
 }
 
 
@@ -1114,18 +1162,19 @@ body:last-child {
 }
 
 #col1 h3{
-    background-color: rgb(109, 197, 168);
+    /* background-color: rgb(154, 245, 215); */
      font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 20px;
      width: 212px;
      height: 20px;
-     margin: 11px 11px 8px 11px;
+     margin: 14px 12px 10px 12px;
+     color: rgb(47,52,50);
     
 } 
 
 #col1 p{
-    background-color: rgb(136, 218, 115);
+    /* background-color: rgb(136, 218, 115); */
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -1133,21 +1182,23 @@ body:last-child {
     height: 96px;
     margin: 0px 11px 11px 11px;
     padding: 0px 3px 0px 0px;
+    color: rgb(65, 64, 64);
 }
 
 #col2 h3{
     /* justify-content: start; */
-    background-color: rgb(26, 105, 79);
+    /* background-color: rgb(40, 146, 111); */
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 20px;
     width: 212px;
     height: 20px;
-    margin: 11px 11px 8px 11px;
+    margin: 14px 11px 10px 11px;
+    color: rgb(47,52,50);
 }
 
 #col2 p{
-   background-color: rgb(214, 115, 218);
+   /* background-color: rgb(214, 115, 218); */
    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -1155,21 +1206,23 @@ body:last-child {
    height: 96px;
    margin: 0px 11px 11px 11px;
    padding: 0px 1px 0px 0px;
+   color: rgb(65, 64, 64);
 }
 
 #col3 h3{
     justify-content: start;
     background-color: rgb(243,246,245);
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 20px;
     width: 212px;
     height: 20px;
-    margin: 11px 11px 8px 11px;
+    margin: 14px 11px 10px 11px;
+    color: rgb(47,52,50);
 }
 
 #col3 p{
-   background-color: rgb(214, 115, 218);
+   /* background-color: rgb(214, 115, 218); */
    font-size: 14px;
    font-weight: 400;
    line-height: 24px;
@@ -1177,17 +1230,19 @@ body:last-child {
    height: 72px;
    margin: 0px 11px 11px 11px;
    padding: 0px 0px 0px 0px;
+   color: rgb(65, 64, 64);
 }
 
 #col4 h3{
     justify-content: start;
-    background-color: rgb(243,246,245);
+    /* background-color: rgb(243,246,245); */
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 20px;
     width: 210px;
     height: 20px;
-    margin: 11px 11px 8px 11px;
+    margin: 14px 11px 10px 11px;
+    color: rgb(47,52,50);
 }
 
 #col4 p{
@@ -1199,6 +1254,7 @@ body:last-child {
    height: 72px;
    margin: 0px 11px 11px 11px;
    padding: 0px 20px 0px 0px;
+   color: rgb(65, 64, 64);
 }
 
 #description{
@@ -1218,19 +1274,30 @@ body:last-child {
     width: 985px;
     height: 27px;
     padding-top: 5px;
+    color: rgb(114, 119, 119);
+    
 }
 
 #description :nth-child(2){
     margin-left: 148px;
     /* background-color: yellow; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
     width: 985px;
     height: 48px;
+    margin-top: -6px;
+    color: rgb(120,124,139);
 }
 #description :last-child{
     margin-left: 148px;
-    background-color: red;
+    /* background-color: rgb(214, 145, 145); */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
     width: 985px;
     height: 48px;
+    color: rgb(120,124,139);
 }
 
 #footer{
@@ -1238,7 +1305,7 @@ body:last-child {
     height: 200px;
     width: 985px;
     margin-left: 148px;
-    background-color: rgb(193, 71, 197);
+    /* background-color: rgb(193, 71, 197); */
     display: flex;
     flex-direction: row;
 }
@@ -1246,11 +1313,11 @@ body:last-child {
 
 
 #footer-wrapper{
-    height: 236px;
+    height: 239px;
     width: 100%;
-    background-color: rgb(87, 156, 23);
-    margin-top:0px;  
-    border-top: 2px solid green;
+    /* background-color: rgb(87, 156, 23); */
+    margin-bottom:0px;  
+    border-top: 2px solid rgb(49,152,120);
 
 }
 
@@ -1260,45 +1327,28 @@ body:last-child {
     justify-content: flex-start;
     height: 246px;
     width: 328px;
-    background-color: rgb(17, 56, 107);
-    margin-top:15px;                      
+    /* background-color: rgb(120, 157, 204); */
+    margin-top:10px;                      
     /* <------------------------------------------------------------------------------------------------------> */
 }
 
 
 
-
-
-.footer-boxs{
-    font-size: 14px;
-    line-height: 20px;
-    height: 236px;
-    width: 164px;
-    background-color: rgb(103, 218, 128);
-    text-align: start;
-    margin-top: 93px;
-
-}
-
-#fb1{
-    height: 236px;
-    width: 164px;
-}
-
 .social-act{
     width: 328px;
     height: 24px;
-    background-color: rgb(92, 241, 154);
+    /* background-color: rgb(104, 219, 152); */
     font-size: 14px;
     font-weight: 600;
     padding-top: 10px;
     margin-top: 9px;
+    color: rgb(71,79,79);
 }
 
 #pay {
     margin-top: -10px;
     margin-bottom: 12px;
-    margin-left: 7px;
+    margin-left: 10px;
     width: 328px;
     height: 40px;
 }
@@ -1309,13 +1359,13 @@ body:last-child {
     width: 328px;
     height: 32px;
     /* margin-bottom: 1px; */
-    background-color: rgb(211, 150, 36);
+    /* background-color: rgb(211, 150, 36); */
     margin-top: -12px;
     margin-bottom: 12px;
 }
 
 #connect-with{
-    background-color: indianred;
+    /* background-color: indianred; */
     padding-top: 4px;
 }
 
@@ -1326,14 +1376,15 @@ body:last-child {
     width: 20px;
     height: 20px;
 }
+
 #fb>p {
-    background-color: rgb(241, 226, 14);
-    /* color: blue; */
+    /* background-color: rgb(182, 172, 40); */
+    color: rgb(55,98,172);
     font-weight: 700;
     padding-top: 2px;
     margin-left: 6px;
     font-size: 14px;
-    margin-top: 4px;
+    margin-top: 5px;
     width: 165px;
     height: 19px;
 }
@@ -1342,18 +1393,19 @@ body:last-child {
     margin-top: -2px;
     padding-top: 6px;
     height: 24px;
-    background-color: #b5e1e7;
+    /* background-color: #b5e1e7; */
 }
 
 
 #country {
     display: inline-block;
-    background-color: rgb(50, 150, 41);
+    /* background-color: rgb(50, 150, 41); */
     font-size: 14px;
     width: 328px;
     margin-top: -6px;
     font-weight: 400;
     height: 25px;
+    color: rgb(60, 113, 182);
 }
 
 
@@ -1361,51 +1413,126 @@ body:last-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 78px;
-    width: 985px;
+    height: 89px;
+    width: 995px;
     margin-left: 148px;
-    background-color: rgb(186, 82, 212);
-    border-top: 2px solid lightgray;
+    /* background-color: rgb(214, 131, 235); */
+    border-top: 2px solid rgb(231, 230, 230);
     margin-top: 29px;
     
 }
 
-#rights>p{
-    margin-top: 22px;
+#rights>p {
+    margin-top: 18px;
     height: 22px;
     width: 225px;
     font-size: 14px;
+   /* background-color: blue; */
 }
 
-#rights>img{
-    margin-top: 22px;
+#rights>img {
+    /* margin-left: 700px; */
+    margin-top: 18px;
     height: 25px;
     width: 92px;
+  
 }
+
+
+
+.footer-boxs{
+    font-size: 14px;
+    line-height: 20px;
+    height: 236px;
+    width: 164px;
+    /* background-color: rgb(28, 97, 43); */
+    text-align: start;
+    margin-top: 93px;
+    color: rgb(60, 113, 182);
+
+}
+
+#fb1{
+    height: 236px;
+    width: 164px;
+    /* background-color: rgb(126, 126, 228); */
+}
+
+
+
 
 #c1,
 #c2,
 #c3,
 #c4{
     height: 164px;
-    background-color: yellow;
+    /* background-color: yellow; */
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     margin-top: -20px;
 }
 
-c4{
+#c4{
     margin-right: 0px;
 }
+
+#c3{
+    margin-left: -7px;
+    /* background-color: chocolate; */
+}
+
+#c2{
+    margin-left: -5px;
+    /* background-color: rgb(160, 92, 43); */
+}
+
+#c1{
+    margin-left: -3px;
+    /* background-color: rgb(247, 160, 98); */
+}
+
 
 .sub-topics{
     height: 24px;
     width: 164px;
-    /* background-color: rgb(168, 38, 59); */
+    /* background-color: rgb(192, 80, 99); */
     font-weight: 700;
-    margin-top: -43px;
+    margin-top: -44px;
+    color: rgb(71,79,79);
 }
+
+.sub-topics2{
+    height: 24px;
+    width: 164px;
+    /* background-color: rgb(192, 80, 99); */
+    font-weight: 700;
+    margin-top: -44px;
+    margin-left: -7px;
+    color: rgb(71,79,79);
+}
+
+.sub-topics3{
+    height: 24px;
+    width: 164px;
+    /* background-color: rgb(235, 63, 92); */
+    font-weight: 700;
+    margin-top: -44px;
+    margin-left: -5px;
+    color: rgb(71,79,79);
+}
+
+
+.sub-topics4{
+    height: 24px;
+    width: 164px;
+    /* background-color: rgb(121, 16, 33); */
+    font-weight: 700;
+    margin-top: -44px;
+    margin-left: -3px;
+    color: rgb(71,79,79);
+}
+
 
 
 
